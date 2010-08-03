@@ -11,7 +11,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano'
+gem 'capistrano'
 
 # To use debugger
 # gem 'ruby-debug'
@@ -28,3 +28,10 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # group :development, :test do
 #   gem 'webrat'
 # end
+gem "haml"
+
+group :test do
+  gem "rspec"
+  gem "rspec-rails"
+  gem "factory_girl"
+end
