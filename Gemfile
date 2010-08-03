@@ -31,7 +31,7 @@ gem 'capistrano'
 gem "haml"
 
 group :test do
-  gem "rspec"
-  gem "rspec-rails"
+  gem "rspec", :git => 'git://github.com/rspec/rspec.git'
+  gem "rspec-rails", :git => 'git://github.com/rspec/rspec-rails.git'
   gem "factory_girl"
 end
